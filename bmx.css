@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(98, 139, 94, 1);
+    margin: 0;
+    color: black;
+    font-family: cursive;
+}
+
+.logo{
+  
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: rgba(158, 207, 154, 1);
+    justify-items: center;
+
+}
+.qmsomos{ 
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-color: rgba(158, 207, 154, 1)  ;
+    justify-items: center;
+    
+}
+ .Ctt{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 1%;
+ }
+ .Cttt{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+ }
+ .Cttt a{
+    text-decoration: none;
+    color: black;
+
+}
+ .bikes{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin-top: 90px;
+    font-size: larger;
+ }
+ .bikes a{
+    text-decoration: none;
+    color: black;
+
+}
+
+ .carrinho{
+     margin-top: 80px;
+ }
+ .titulo{
+    font-size: xx-large;
+    text-align: center;
+}
+ .bmx{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+ }
+ .prima {
+    text-align: center;
+    list-style: none;
+    margin-top: 70px;
+}
+.segun{
+    list-style: none;
+    text-align: center;
+    font-size: larger;
+    margin-top: 70px;
+    }
+    .terc{
+        list-style: none ;
+        text-align: center;
+        font-size: large;
+        margin-top: 60px;
+    }
